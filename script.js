@@ -10,11 +10,11 @@ function loadData(records = []) {
                 table_data += `<td>${records[i][2]}</td>`;
 
                 table_data += `<td>${records[i][3]}</td>`;
-                table_data += `<td>`;
-                table_data += `<a href="edit.html?id=${records[i][0]}"><button class="btn btn-primary">Edit</button></a>`;
-                table_data += '&nbsp;&nbsp;';
-                table_data += `<button class="btn btn-danger" onclick=deleteData('${records[i][0]}')>Delete</button>`;
-                table_data += `</td>`;
+               // table_data += `<td>`;
+             //   table_data += `<a href="edit.html?id=${records[i][0]}"><button class="btn btn-primary">Edit</button></a>`;
+                //table_data += '&nbsp;&nbsp;';
+                //table_data += `<button class="btn btn-danger" onclick=deleteData('${records[i][0]}')>Delete</button>`;
+                //table_data += `</td>`;
                 table_data += `</tr>`;
         }
         console.log(table_data);
