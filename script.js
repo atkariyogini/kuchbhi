@@ -22,7 +22,7 @@ function loadData(records = []) {
 }
 
 function getData() {
-        alert("Hello World");
+        //alert("Hello World");
         fetch(api_url)
         .then((response) => response.json())
         .then((data) => {
